@@ -21,7 +21,7 @@ int main(){
 	scanf("%d",&ans);
 
 	
-	printf("두 수를 입력하시오.\n");
+	printf("두수를 입력하시오.\n");
 	scanf("%d %d",&x,&y);	
 
 	switch(ans){
