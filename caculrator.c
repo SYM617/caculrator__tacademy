@@ -3,7 +3,7 @@
 #include<stdio.h>
 
 
-int add(int x, int y);
+void add(int x, int y);
 int sub(int x, int y);
 int mul(int x, int y);
 int div(int x, int y);
@@ -40,11 +40,15 @@ int main(){
 	return 0;
 }
 
-int add(int x, int y){
-	// 채워요.
+void add(int x, int y){
+
+	printf("%d\n", (x+y));
+
 }
 int sub(int x, int y){
-	// 채워요.
+	int result;
+	result = x - y;
+	printf("%d\n", result);
 }
 int mul(int x, int y){
 	return x*y;
