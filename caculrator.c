@@ -41,7 +41,9 @@ int main(){
 }
 
 int add(int x, int y){
+	
 	printf("%d\n", (x+y));
+
 }
 int sub(int x, int y){
 	// 채워요.
