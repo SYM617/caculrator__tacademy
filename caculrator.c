@@ -46,8 +46,7 @@ void add(int x, int y){
 
 }
 int sub(int x, int y){
-	int result;
-	result = x - y;
+	int result = x - y;
 	printf("%d\n", result);
 }
 int mul(int x, int y){
