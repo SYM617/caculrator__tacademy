@@ -3,7 +3,7 @@
 #include<stdio.h>
 
 
-int add(int x, int y);
+void add(int x, int y);
 int sub(int x, int y);
 int mul(int x, int y);
 int div(int x, int y);
@@ -40,8 +40,8 @@ int main(){
 	return 0;
 }
 
-int add(int x, int y){
-	
+void add(int x, int y){
+
 	printf("%d\n", (x+y));
 
 }
