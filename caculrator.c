@@ -50,7 +50,8 @@ int sub(int x, int y){
 	printf("%d\n", result);
 }
 int mul(int x, int y){
-	return x*y;
+	//return x*y;
+	printf("%d\n",x*y);
 }
 void div(int x, int y){
 	printf("%d\n", x/y);
