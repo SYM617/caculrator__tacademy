@@ -47,7 +47,7 @@ int sub(int x, int y){
 	// 채워요.
 }
 int mul(int x, int y){
-	// 채워요.
+	return x*y;
 }
 int div(int x, int y){
 	// 채워요.
