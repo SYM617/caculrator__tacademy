@@ -53,6 +53,6 @@ int sub(int x, int y){
 int mul(int x, int y){
 	return x*y;
 }
-int div(int x, int y){
-	// 채워요.
+void div(int x, int y){
+	printf("%d\n", x/y);
 }
